@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(135deg, #f0f2f5, #dbeafe);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-container {
+  background: url('/background-login.svg') no-repeat center center;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.ant-card  {
+  background-color: #ffffffee;
+  border: none;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.ant-card:hover {
+  transform: translateY(-5px);
+}
+
+.ant-typography {
+  color: #1e293b;
+}
+
+.ant-btn-primary {
+  background-color: #1677ff;
+  border-color: #1677ff;
+}
+
+.ant-btn-primary:hover {
+  background-color: #0056d2;
+  border-color: #0056d2;
+}
+
+.ant-input-affix-wrapper {
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 15px;
+}
+
+.ant-input-password input {
+  background-color: #f9fafb;
+}
+
+.ant-form-item {
+  margin-bottom: 16px;
+}
+
+a {
+  color: #1677ff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
